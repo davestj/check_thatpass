@@ -66,8 +66,9 @@ return($desc[$score]);
 
 
 //EXAMPLE CASE USAGE
-$mypass = check_thatpass("#sd3aD9^tYr");
+$_pass  = "sd3aD9^tYr";
+$mypass = check_thatpass($_pass);
    
-echo 'Your password is '.$mypass.'';
+echo 'Your password of '.$_pass.' is '.$mypass.'';
 
 ?>
