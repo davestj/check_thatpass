@@ -63,7 +63,7 @@ return($desc[$score]);
 
 
 //EXAMPLE CASE USAGE
-$_pass  = "5243wrvNN";
+$_pass  = "#!dudeWh0c#1";
 $mypass = check_thatpass($_pass);
    
 echo 'Your password of '.$_pass.' is '.$mypass.'';
