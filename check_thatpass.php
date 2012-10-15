@@ -31,10 +31,8 @@ if(preg_match("/^123/",$password) || preg_match("/^123456/",$password) || preg_m
     $score--;
     
 }
-if($password < 6){
-    $score--;
-    
-}
+
+
 
 
 //if password has at least one number give 1 point
