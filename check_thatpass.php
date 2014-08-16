@@ -4,7 +4,7 @@ class ThePassMan{
 
 public      $password = "";    
 protected   $desc     = array();
-public      $score    = "";
+public      $score    = int;
 private     $strpass  = string;
    
 function check_thatpass($password){
