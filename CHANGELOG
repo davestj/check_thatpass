@@ -1,0 +1,3 @@
+2014-8-15
+ 	1. Added new method for hashing password
+	2. Added mcrypt methods for encrypting a hash and decrypting generated hash.
